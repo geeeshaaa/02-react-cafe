@@ -1,7 +1,5 @@
-
 import type { VoteType } from "../types/Votes";
 import css from "./VoteOptions.module.css";
-import { useState } from "react";
 export interface VoteOptionsProps{
 onLeaveFeedback: (type: VoteType)=> void;
 onReset: ()=>void;
