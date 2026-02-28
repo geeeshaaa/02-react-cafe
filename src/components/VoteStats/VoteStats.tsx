@@ -1,11 +1,10 @@
 import css from './VoteStats.module.css';
-import type { Votes } from '../../../votes';
+import type { Votes } from '../../types/votes';
 
 export interface VoteStatsProps {
     votes: Votes;
     totalVotes: number;
     positiveRate: number;
-    onReset: ()=> void;
 }
 export default function VoteStats({votes,totalVotes,positiveRate}: VoteStatsProps){
    return <div className={css.container}>
