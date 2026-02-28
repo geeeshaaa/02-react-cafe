@@ -1,4 +1,4 @@
-import type { VoteType } from "../../types/votes";
+import type { VoteType } from "../../../votes";
 import css from "./VoteOptions.module.css";
 export interface VoteOptionsProps{
 onLeaveFeedback: (type: VoteType)=> void;
